@@ -1,0 +1,15 @@
+Sequential Searching
+• Pencarian berurutan sering disebut pencarian linear merupakan metode pencarian yang paling sederhana.
+
+• Prinsip pencarian:
+Data yang ada dibandingkan satu per satu secara berurutan dengan yang dicari sampai data tersebut ditemukan atau tidak ditemukan.
+
+• Pada kasus yang paling buruk, untuk N elemen data harus dilakukan pencarian sebanyak N kali pula.
+
+Binary Searching
+• Syarat pencarian: data sudah urut, jika data belum urut pencarian tidak dapat dilakukan.
+• Contoh: Misalnya saat mencari suatu kata dalam kamus.
+• Mula-mula diambil posisi awal 0 dan posisi akhir = N - 1, kemudian dicari posisi data tengah dengan rumus (posisi awal + posisi akhir)/2. Kemudian data yang dicari dibandingkan dengan data tengah. 
+Jika lebih kecil, proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah –1. 
+Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah + 1.
+Demikian seterusnya sampai data tengah sama dengan yang dicari.
